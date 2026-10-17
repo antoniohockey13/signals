@@ -11,7 +11,7 @@ setuptools.setup(
 	description = "Utilities for signal analysis",
 	long_description = long_description,
 	long_description_content_type = "text/markdown",
-	url = "https://github.com/SengerM/signals",
+	url = "https://github.com/antoniohockey13/signals",
 	packages = setuptools.find_packages(),
 	classifiers = [
 		"Programming Language :: Python :: 3",
