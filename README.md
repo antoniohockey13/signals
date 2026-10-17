@@ -5,7 +5,7 @@ Package to ease the processing of signals.
 ## Installation
 
 ```
-pip install git+https://github.com/SengerM/signals
+pip install git+https://github.com/antoniohockey13/signals
 ```
 
 ## Usage
