@@ -353,6 +353,10 @@ class PeakSignal(PositivePeakSignal):
     def integral_from_baseline(self) -> float:
         return self._integral_from_baseline_positive_peak * self._peak_sign
 
+    @property
+    def signal_polarity(self) -> int:
+        return self._peak_sign
+
 def draw_in_plotly(signal, fig=None, baseline=True, noise=True, amplitude=True, rise_time=True, time_over_noise=True, peak_integral=True, peak_start_time=True):
     """Plot the signal along with the different quantities. `fig` is a 
     plotly figure.
